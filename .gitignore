@@ -1,8 +1,11 @@
 # Ignore build artifacts and non-C files
 # Ignore only .dSYM folders
+!README.md
+!.gitignore
 *
+!*.*
+!*/
+.vscode
 *.dSYM/
 !*.c
 !*.h
-!README.md
-!.gitignore
